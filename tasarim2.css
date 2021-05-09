@@ -1,0 +1,96 @@
+body,h1,ul,li{
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    background:url() #fdfdfc;
+    font-family: sans-serif;
+}
+ 
+.sayfa{
+    width: 950px;
+    margin:50px auto;
+}
+ 
+#baslik{
+    float: left;
+    font-size: 1.2em;
+    color: rgb(167, 28, 28);
+    text-decoration: none;
+}
+ 
+#menu{
+    float: right;
+    list-style: none;
+    margin-top: 1em;
+}
+ 
+#menu li{
+    float: left;
+    
+}
+ 
+#menu li a{
+    color: rgb(102, 92, 92);
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px 20px;
+}
+ 
+#menu a:hover{
+    background: rgb(184, 178, 178);
+    border-radius: 15px;
+}
+ 
+.orta-sol{
+    margin-top: 15px;
+    background: rgb(255, 255, 255);
+ 
+}
+ 
+.orta-sol{
+    float: left;
+    width: 450px;
+}
+ 
+ 
+.orta-sag{
+    float: left;
+    margin: 15px;
+    width: 470px;
+    color: #bbb;
+}
+ 
+.alt{
+    background: #555;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+.alt a{
+     color: #fff;
+}
+ 
+.temizle{
+    clear: both;
+}
+#atf-map-area iframe {
+    width: 100%;
+    height: 500px;
+}
+.atf-banner-social ul li {
+	display: inline-block;
+}
+.atf-banner-social ul li a {
+	display: inline-block;
+	height: 55px;
+	width: 55px;
+	line-height: 55px;
+	text-align: center;
+	background: var(--thm-white);
+	color: var(--thm-color);
+	font-size: 25px;
+	margin: 0 20px auto auto;
+	border-radius: 50%;
+}
